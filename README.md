@@ -4,6 +4,8 @@ Práce se zabývá vytvořením webových stránek pro firmu Codepage s.r.o.
 
 [Figma návrh](https://www.figma.com/file/eAOD6FJqK08ACoL6CUPlOp/Codepage?type=design&node-id=0%3A1&t=X1w4WBWau6pdx72h-1)
 
+![codepage](./img/Logo.svg)
+
 ## ToDo
 - [x] Vytvořit repozitář projektu
 - [x] Vytvořit Figma projekt
