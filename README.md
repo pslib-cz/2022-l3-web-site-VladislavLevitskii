@@ -5,7 +5,7 @@ Práce se zabývá vytvořením webových stránek ...
 Nezapomenu upravit odkazy a "aktivovat" GitHub Pages... 
 [Webová stránka s ukázkovou implemetací](https://pslib-cz.github.io/<SEM_VKLADAM_NAZEV_PROJEKTU>/)
 
-[Návrh webové stránky ve Figmě](https://www.figma.com/](https://www.figma.com/file/eAOD6FJqK08ACoL6CUPlOp/Codepage?type=design&node-id=0%3A1&t=X1w4WBWau6pdx72h-1)
+[Webová stránka s ukázkovou implemetací](https://www.figma.com/file/eAOD6FJqK08ACoL6CUPlOp/Codepage?type=design&node-id=0%3A1&t=X1w4WBWau6pdx72h-1)
 
 ## ToDo
 - [x] Vytvořit repozitář projektu
