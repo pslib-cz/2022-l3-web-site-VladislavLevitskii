@@ -2,12 +2,147 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <title>Tento webový projekt</title>
+    <meta name="description" content="Codepage nabízí levné PC sestavy v Jablonci nad Nisou">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="stylesheet" href="./CSS/components.css">
+    <link rel="icon" type="image/x-icon" href="./Images/Icons/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Codepage</title>
 </head>
 <body>
-    <h1>My Web Page</h1>    
+    <ul>
+        <li><a href="tel:+420722134560"><img src="./Images/Icons/Phone_white.svg" alt="Phone">+420 722 134 560</a>
+        <li><a href="mailto:info@codepage.cz"><img src="./Images/Icons/Message_white.svg" alt="Phone">info@codepage.cz</a>
+    </ul>
+    <div class="navlineheader"></div>
+    <header>
+        <div class="header__flex">
+            <a href="index.html"><img src="./Images/Icons/Logo_header--mobile--white.svg" alt="Logo"></a>
+            <div class="hamburgermenu">
+                <div class="hamburgermenu__line hamburgermenu__line--1"></div>
+                <div class="hamburgermenu__line hamburgermenu__line--2"></div>
+                <div class="hamburgermenu__line hamburgermenu__line--3"></div>
+            </div>
+            <nav class="nav__header--1024andmore">
+                <menu>
+                    <li><a href="index.html">Úvod</a><div class="li__underline li__underline--active"></div></li>
+                    <li><div class="li__upperline"></div><a href="konfigurace.html">Konfigurace PC</a><div class="li__underline"></div></li>
+                    <li><div class="li__upperline"></div><a href="dily.html">Náhradní díly</a><div class="li__underline"></div></li>
+                    <li class="verticalline__header"></li>
+                    <li class="li__kontakt"><a href="kontakt.html" class="button__kontakt"><span>Kontakt</span> <div class="button__kontakt--bluerectangle"></div></a></li>
+                </menu>
+            </nav>
+        </div>
+        <nav class="nav__hamburger">
+            <menu>
+                <li><a href="index.html">Úvodní stránka</a></li>
+                <li><a href="konfigurace.html">Konfigurace PC sestav</a></li>
+                <li><a href="dily.html">Náhradní díly</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <h1>Sestava PC konfigurace, oprava počítačů, SW řešení, náhradní díly </h1>
+        <div class="forlaprotandmore">
+            <h2>Služby</h2>
+            <nav class="nav_services swiper">
+                <menu class="swiper-wrapper">
+                    <li class="swiper-slide"><a href="konfigurace.html"><img src="./Images/Images__cut/PC__full.png" alt="PC" class="nav_services--PC_full"><p>Konfigurace PC sestav</p></a></li>
+                    <li class="swiper-slide"><a href="dily.html"><img src="./Images/Images__cut/Díly.png" alt="Současti"><p>Náhradní díly</p></a></li>
+                    <li class="swiper-slide"><a href="kontakt.html"><img src="./Images/Images__cut/NB1__cut.png" alt="Notebook"><p>Oprava počítačů</p></a></li>
+                </menu>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </nav>
+        </div>
+        <article class="article__grid__tabletandmore">
+            <h3>Klady obnovených PC:</h3>
+            <ul>
+                <li>Velmi nízká cena</li>
+                <li>Stačí zapojit a používat</li>
+                <li>Dostupnost náhradních dílů</li>
+                <li>Legální aktivovaný operační systém</li>
+                <li>Vyčištěný a přepastovaný (oproti bazarovým PC)</li>
+                <li>Předinstalované základní programy, stačí zapojit a používat</li>
+                <li>Dostatečný výkon dle Vašich požadavků</li>
+            </ul>
+            <h3>Zápory obnovených PC:</h3>
+            <ul>
+                <li>Možné škrábance, malé kosmetické vady</li>
+            </ul>
+        </article>
+        <article class="article__zapory">
+            <h3>Zápory obnovených PC:</h3>
+            <ul>
+                <li>- Možné škrábance, malé kosmetické vady</li>
+            </ul>
+        </article>
+        <article class="article__vyuziti">
+            <h3>Příklady využití levných obnovených PC:</h3>
+            <div class="article__vyuziti--grid">
+                <div><img src="./Images/Icons/Gamepad.svg" alt="Gamepad"><p>Hry</p></div>
+                <div><img src="./Images/Icons/Film.svg" alt="Film"><p>Filmy</p></div>
+                <div><img src="./Images/Icons/Globe.svg" alt="Globe"><p>Internet</p></div>
+                <div><img src="./Images/Icons/Message__big.svg" alt="Dopis"><p>Email</p></div>
+            </div>
+        </article>
+        <a href="kontakt.html" class="button__kontakt"><span>Kontaktovat v případě zájmu</span><div class="button__kontakt--bluerectangle"></div></a>
+    </main>
+    <footer>
+        <div class="footer__maxwidth1200px">
+            <img src="./Images/Icons/Logo_header--mobile--white.svg" alt="Logo">
+            <nav>
+                <menu>
+                    <li><a href="#">Domovská stránka</a></li>
+                    <li><a href="konfigurace.html">Konfigurace PC sestav</a></li>
+                    <li><a href="dily.html">Náhradní díly</a></li>
+                    <li><a href="kontakt.html">Kontakt</a></li>
+                </menu>
+            </nav>
+            <ul>
+                <li><a href="tel:420722134560"><img src="./Images/Icons/Phone_white.svg" alt="Phone">+420 722 134 560</a></li>
+                <li><a href="mailto:info@codepage.cz"><img src="./Images/Icons/Message_white.svg" alt="Dopis">info@codepage.cz</a></li>
+                <li><a href="#"><img src="./Images/Icons/Facebook-Negative.svg" alt="Logo__facebook">Facebook</a></li>
+                <li><a href="#"><img src="./Images/Icons/Instagram-Negative.svg" alt="Logo__instagram">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="./JavaScript/hamburger.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script>
+        new Swiper(".swiper", {
+
+            loop: true,
+
+            spaceBetween: 30,
+
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            pagination: {
+              el: '.swiper-pagination',
+              type: 'bullets',
+              clickable: true,
+            },
+        
+            autoplay: {
+              delay: 3500,
+            },
+
+            speed: 800,
+
+            effect: "coverflow",
+        })
+    </script>
 </body>
 </html>
