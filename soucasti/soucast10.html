@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Codepage nabízí levné PC sestavy v Jablonci nad Nisou">
+    <link rel="stylesheet" href="../CSS/normalize.css">
+    <link rel="stylesheet" href="../CSS/components.css">
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <link rel="icon" type="image/x-icon" href="../Images/Icons/favicon.ico">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../lightGallery-master/dist/css/lightgallery-bundle.min.css">
+    <title>Codepage | RAM DDR2 512 MB</title>
+</head>
+<body>
+    <ul>
+        <li><a href="tel:+420722134560"><img src="../Images/Icons/Phone_white.svg" alt="Phone">+420 722 134 560</a>
+        <li><a href="mailto:info@codepage.cz"><img src="../Images/Icons/Message_white.svg" alt="Phone">info@codepage.cz</a>
+    </ul>
+    <div class="navlineheader"></div>
+    <header>
+        <div class="header__flex">
+            <a href="../index.html"><img src="../Images/Icons/Logo_header--mobile--white.svg" alt="Logo"></a>
+            <div class="hamburgermenu">
+                <div class="hamburgermenu__line hamburgermenu__line--1"></div>
+                <div class="hamburgermenu__line hamburgermenu__line--2"></div>
+                <div class="hamburgermenu__line hamburgermenu__line--3"></div>
+            </div>
+            <nav class="nav__header--1024andmore">
+                <menu>
+                    <li><div class="li__upperline"></div><a href="../index.html">Úvod</a><div class="li__underline"></div></li>
+                    <li><div class="li__upperline"></div><a href="../konfigurace.html">Konfigurace PC</a><div class="li__underline"></div></li>
+                    <li><div class="li__upperline"></div><a href="../dily.html">Náhradní díly</a><div class="li__underline"></div></li>
+                    <li class="verticalline__header"></li>
+                    <li class="li__kontakt"><a href="../kontakt.html" class="button__kontakt"><span>Kontakt</span><div class="button__kontakt--bluerectangle"></div></a></li>
+                </menu>
+            </nav>
+        </div>
+        <nav class="nav__hamburger">
+            <menu>
+                <li><a href="../index.html">Úvodní stránka</a></li>
+                <li><a href="../konfigurace.html">Konfigurace PC sestav</a></li>
+                <li><a href="../dily.html">Náhradní díly</a></li>
+                <li><a href="../kontakt.html">Kontakt</a></li>
+            </menu>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <a href="../dily.html#10" class="soucast__back"><img src="../Images/Icons/Arrow_zpet.svg" alt="Šípka zpět">Zpět</a>
+            <h1>RAM DDR2 512 MB</h1>
+            <div class="soucast__flex">
+                <div class="galerie" id="lightgallery">
+                    <h2 class="galerie__název">Galerie</h2>
+                    <img src="../Images/Náhradní_díly/RAM1.webp" alt="Intel Core 2 Duo E6600" class="galerie__mainphoto anchor">
+                </div>
+                <div class="specifikace">
+                    <h2 class="specifikace__název">Specifikace</h2>
+                    <p>Frekvence</p>
+                    <p>800 MHz</p>
+                    <div class="specifikace__price">
+                        <p>Cena</p>
+                        <p>100 Kč</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <a href="../kontakt.html" class="button__kontakt"><span>Kontaktovat v případě zájmu</span><div class="button__kontakt--bluerectangle"></div></a>
+    </main>
+    <footer>
+        <div class="footer__maxwidth1200px">
+            <img src="../Images/Icons/Logo_header--mobile--white.svg" alt="Logo">
+            <nav>
+                <menu>
+                    <li><a href="../index.html">Domovská stránka</a></li>
+                    <li><a href="../konfigurace.html">Konfigurace PC sestav</a></li>
+                    <li><a href="../dily.html">Náhradní díly</a></li>
+                    <li><a href="../kontakt.html">Kontakt</a></li>
+                </menu>
+            </nav>
+            <ul>
+                <li><a href="tel:420722134560"><img src="../Images/Icons/Phone_white.svg" alt="Phone">+420 722 134 560</a></li>
+                <li><a href="mailto:info@codepage.cz"><img src="../Images/Icons/Message_white.svg" alt="Dopis">info@codepage.cz</a></li>
+                <li><a href="#"><img src="../Images/Icons/Facebook-Negative.svg" alt="Logo__facebook">Facebook</a></li>
+                <li><a href="#"><img src="../Images/Icons/Instagram-Negative.svg" alt="Logo__instagram">Instagram</a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="../JavaScript/hamburger.js"></script>
+    <script src="../lightGallery-master/dist/lightgallery.min.js"></script>
+    <script src="../lightGallery-master/dist/plugins/thumbnail/lg-thumbnail.min.js"></script>
+    <script>
+        lightGallery(document.getElementById('lightgallery'), {
+        speed: 500,
+        selector: '.anchor',
+        commentBox: true,
+        controls: true,
+        counter: true,
+        preload: 2,
+        loop: true,
+        mobileSettings :{controls: true},
+        });
+    </script>
+</body>
+</html>
