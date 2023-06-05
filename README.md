@@ -2,7 +2,7 @@
 # Codepage
 Práce se zabývá vytvořením webových stránek pro firmu Codepage s.r.o.
 
-[Figma návrh](https://www.figma.com/file/eAOD6FJqK08ACoL6CUPlOp/Codepage?type=design&node-id=0%3A1&t=X1w4WBWau6pdx72h-1)
+[Odkaz na správný repozitář](https://github.com/VladislavLevitskii/Codepage)
 
 [Živý web](https://pslib-cz.github.io/2022-l3-web-site-VladislavLevitskii/)
 
